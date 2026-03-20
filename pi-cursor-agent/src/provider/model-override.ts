@@ -33,6 +33,22 @@ const overrides = [
     maxTokens: 4000,
   },
   {
+    id: /^composer-2$/,
+    reasoning: true,
+    input: ["text", "image"],
+    cost: { input: 0.5, output: 2.5, cacheRead: 0.2, cacheWrite: 0 },
+    contextWindow: 200000,
+    maxTokens: 4000,
+  },
+  {
+    id: /^cursor-auto$/,
+    reasoning: false,
+    input: ["text", "image"],
+    cost: { input: 1.25, output: 6, cacheRead: 0.25, cacheWrite: 1.25 },
+    contextWindow: 200000,
+    maxTokens: 4000,
+  },
+  {
     id: /^claude-sonnet-4-5$/,
     reasoning: true,
     input: ["text", "image"],

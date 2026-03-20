@@ -13,6 +13,10 @@ const MODEL_MAP: Record<string, Record<string, string>> = {
   // Composer
   "composer-1": { default: "composer-1" },
   "composer-1.5": { default: "composer-1.5" },
+  "composer-2": { default: "composer-2" },
+
+  // Cursor routing modes
+  "cursor-auto": { default: "default" },
 
   // Claude — binary: off / thinking
   "claude-sonnet-4-5": {
