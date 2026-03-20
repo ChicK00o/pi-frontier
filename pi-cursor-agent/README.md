@@ -36,6 +36,8 @@ The following models are available through the Cursor Agent provider. Canonical 
 | `grok-code-fast-1` | `grok-code-fast-1` | Grok Code (Cursor) |
 | `composer-1` | `composer-1` | Composer 1 (Cursor) |
 | `composer-1.5` | `composer-1.5` | Composer 1.5 (Cursor) |
+| `composer-2` | `composer-2` | Composer 2 (Cursor) |
+| `cursor-auto` | `default` | Auto (Cursor) |
 | `kimi-k2.5` | `kimi-k2.5` | Kimi K2.5 (Cursor) |
 
 ## Installation
